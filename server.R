@@ -6,6 +6,9 @@ library(psych)
 ToGr<-ToothGrowth
 ToGr$dose<-factor(ToGr$dose)
 
+## Show the behaviour of the ToothGrowth under the effect of Vitamin C and 
+## depending of the way in wich the supplemet was administered.
+
 shinyServer(function(input, output) {
     
     output$plot<- renderPlot(function() {
@@ -20,7 +23,7 @@ shinyServer(function(input, output) {
         
     })
     
-    ## Show the summary
+    ## Show the summary by group "describeBy"  or the general summary "summary". 
     
     output$view<-renderTable(function() {
        
