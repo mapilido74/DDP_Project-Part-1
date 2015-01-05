@@ -15,24 +15,7 @@ ui.R
 server.R
 README.md
 
-## Instructions
-
-Clone the code using 'git clone https://github.com/mapilido74/DDP_Project-Part-1.git YOURDIRECTORY'
-
-1. Load your RStudio
-
-2. Set your working directory to YOURDIRECTORY using setwd("YOURDIRECTORY")
-
-3. Load the Shiny library using library(shiny)
-
-4. Run the application using runApp()
-
-You will see the application in a browser. Follow the instructions to use the application.
-
-## Dependencies
-
-Shiny library
-More Information
+# Shiny App link
 
 The application is deployed on ShinyApps.io at https://mapilido74.shinyapps.io/ProjectFinal/
 
